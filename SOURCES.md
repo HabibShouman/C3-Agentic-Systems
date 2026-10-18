@@ -14,4 +14,6 @@ The installed local SDK was also inspected and tested using a synthetic in-memor
 
 - Google, [Gemini rate limits](https://ai.google.dev/gemini-api/docs/rate-limits): request/token/day limits apply per project and depend on the account. This informed local pacing after an actual smoke-run rate-limit error.
 - Microsoft, [Playwright Python videos](https://playwright.dev/python/docs/videos): isolated browser-test recording saved after context closure; used for the actual demonstration footage.
-- Hugging Face, [Spaces configuration reference](https://huggingface.co/docs/hub/spaces-config-reference): README metadata for the prepared optional Gradio Space. No hosting is claimed.
+- Hugging Face, [Spaces configuration reference](https://huggingface.co/docs/hub/spaces-config-reference): README SDK, entry-point, and Python metadata. No successful hosting is claimed.
+- Hugging Face, [Manage your Space](https://huggingface.co/docs/huggingface_hub/guides/manage-spaces): official create/upload, secret/environment, runtime, and CPU Basic subscription behavior used by tools/deploy_space.py.
+- Hugging Face, [ZeroGPU Spaces](https://huggingface.co/docs/hub/spaces-zerogpu): free-account eligibility and supported Python versions. Both genuine creation rejections are application evidence in evidence/huggingface_attempts.json, rather than inferred from documentation.

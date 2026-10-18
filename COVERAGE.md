@@ -15,8 +15,8 @@ No numerical C3 rubric was supplied; no point allocation or grade is invented.
 | Successful reproducible execution | evidence/verification.json; notebook_execution.json; live_results_index.json | Local application tests, fresh local Jupyter run, genuine Gemini and browser checks |
 | Secret configuration and exclusions | .env.example; .gitignore; package_audit.json and archive scan | Real key excluded; no key in source, outputs, video, or ZIP |
 | Required demonstration video | demo/C3_demonstration.webm; demo/README.md | Actual automated browser footage, not fabricated outputs |
-| Required GitHub repository | Complete repository-ready files and video | Course repository destination/publication remains pending |
+| Required GitHub repository | https://github.com/HabibShouman/C3-Agentic-Systems; evidence/repository.json | First full publication: all 79 file blobs verified, including notebook, PDF, code and actual video |
 | Bonus reflection | Actual draft/revision events in live/UI traces | Executed; unchanged drafts are reported honestly |
-| Bonus Hugging Face deployment | Prepared README metadata/setup | Not deployed; no bonus completion claim |
+| Bonus Hugging Face deployment | tools/deploy_space.py; requirements-deploy.txt; evidence/huggingface_attempts.json | Valid write authentication; CPU Basic and ZeroGPU creation both rejected with HTTP 402. No Space created; bonus incomplete |
 
-The local solution is complete. The required external repository remains a separate unresolved submission item. No instructor submission has been made. Counts, versions, and actual execution scopes are recorded in the evidence files.
+The local solution and required external repository publication are complete. The optional hosting bonus remains blocked by Hugging Face account eligibility. No instructor submission has been made. Counts, versions, and actual execution scopes are recorded in the evidence files.

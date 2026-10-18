@@ -1,0 +1,59 @@
+{
+  "author": "Habib Shouman",
+  "repository_url": "https://github.com/HabibShouman/C3-Agentic-Systems",
+  "branch": "main",
+  "publication_commit": "d03f06aea212b09a8cffae74dbb1cb6a22028547",
+  "publication_tree": "536af985d98b8897de65dcc3db9aa72333f1127d",
+  "verified_utc": "2026-10-18T15:00:29.417Z",
+  "verification_method": "GitHub public recursive tree: every blob SHA-1 compared with the exact local Git blob bytes.",
+  "publication_verified": true,
+  "files_verified": 79,
+  "all_file_blobs_match": true,
+  "required_assets": [
+    {
+      "path": "README.md",
+      "blob_sha": "474a34fe92fba91972da17500f5b656a00c1e98e",
+      "sha256": "9754ac0f09f975400808813d217e653c44888327331d0967fc57a3b6f9715387",
+      "bytes": 5324
+    },
+    {
+      "path": "agent.py",
+      "blob_sha": "c9df02bda450ba2a0611387855d9055bbfb9d2ac",
+      "sha256": "98c523f42d3c24685783611861ab0283fa262077d938a16c04b70552002df104",
+      "bytes": 10515
+    },
+    {
+      "path": "app.py",
+      "blob_sha": "2c8ab10c97729cca59a1801efe4dc3bbdafa89a0",
+      "sha256": "3b278925334913f97a1b411d63651fa35c9fce9361033c3c00772c5e5ea15f63",
+      "bytes": 1548
+    },
+    {
+      "path": "business_agent.ipynb",
+      "blob_sha": "8b9318ad85aaba94d1887c51c900bdb1557fa195",
+      "sha256": "eb334456b83cef54a7decc2847fa9cdc335137c84ae6c2ddd32e83002e58d322",
+      "bytes": 84105
+    },
+    {
+      "path": "common.py",
+      "blob_sha": "271269ee827caed27ee79cf0227f1d7ef1c15e52",
+      "sha256": "5c0d93dbc60d3c54548e0e96e89caf4e5cc2b1ba2b99500e316210159aa884aa",
+      "bytes": 17520
+    },
+    {
+      "path": "demo/C3_demonstration.webm",
+      "blob_sha": "77be2621bded4d9076394fd48c7b9a3e4e1a2fdf",
+      "sha256": "7e60de5411f4012b8054195d5e3586f8947e457af76d2e84367c68113f83010e",
+      "bytes": 1459497
+    },
+    {
+      "path": "me/about_business.pdf",
+      "blob_sha": "bb6d1eb1d1eabfd51cb92d3d612e2dfdbcc5475f",
+      "sha256": "00c0bb1bb666216d8125e0db16cf16f0ad918fe4ead1d51d9e77139504fbc620",
+      "bytes": 3851
+    }
+  ],
+  "credentials_published": false,
+  "instructor_submission_performed": false,
+  "note": "This records the first full publication. Subsequent documentation/notebook updates may be newer commits."
+}

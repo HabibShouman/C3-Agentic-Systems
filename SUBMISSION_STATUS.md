@@ -11,7 +11,7 @@ Habib Shouman
 | Gradio browser interactions | Six genuine UI turns, exact lead fields, feedback/unknown records, and declined logging checked; evidence/ui_verification.json |
 | Required demonstration video | demo/C3_demonstration.webm, actual automated browser recording with live replies; no audio narration |
 | Bonus reflection | Genuine draft/revision events in the live and UI traces; revisions may equal drafts |
-| Required GitHub repository | Repository files are ready; a course repository destination still needs to be supplied/published |
-| Bonus Hugging Face hosting | Not deployed; optional and not counted as completed |
+| Required GitHub repository | Published at https://github.com/HabibShouman/C3-Agentic-Systems; all 79 file blobs in the first full publication verified; evidence/repository.json |
+| Bonus Hugging Face hosting | Valid write token; CPU Basic and ZeroGPU creation both rejected with HTTP 402. No Space created. Deployment helper included; bonus remains incomplete |
 
-The local deliverables and genuine live evidence are complete. The required external GitHub repository remains an explicit submission item. No instructor submission has been made. Execution was local on Windows/Python 3.13.6, not Colab. The API key is excluded from both archives.
+The local deliverables, genuine live evidence, and required GitHub publication are complete. Hugging Face account eligibility blocks the optional hosting bonus; evidence/huggingface_attempts.json records the genuine rejections. No instructor submission has been made. Execution was local on Windows/Python 3.13.6, not Colab. Both provider and deployment credentials are excluded from submission files.

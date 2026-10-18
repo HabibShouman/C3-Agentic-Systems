@@ -16,7 +16,7 @@ python_version: "3.11"
 
 CircuitBridge Learning is a fictional electronics and AI workshop business. Mira answers documented questions, collects authorized leads, and logs feedback or unanswered questions. The submitted code uses Gemini through its official OpenAI-compatible endpoint by default, with an OpenAI option.
 
-**Status:** Code, business assets, fresh local notebook execution, genuine Gemini checks, and a real browser demonstration/video are included. The required GitHub repository destination remains pending; no instructor submission has been made.
+**Status:** Complete code, business assets, an executed notebook, genuine Gemini checks, and the actual demonstration video are published at [HabibShouman/C3-Agentic-Systems](https://github.com/HabibShouman/C3-Agentic-Systems). All 79 files in the first full publication were verified by their Git blob hashes. The Hugging Face hosting bonus is blocked by account eligibility; no instructor submission has been made.
 
 ## Start locally
 
@@ -69,9 +69,21 @@ Set `RUN_LIVE=True` only when you intend to use the configured API. Set `LAUNCH_
 
 ## Required video and repository
 
-`demo/C3_demonstration.webm` is the actual silent automated browser recording. `DEMO_SCRIPT.md` explains the demonstrated sequence. Add the video and these files to the required course repository. The required video is included. Publication in a course GitHub repository remains a separate outstanding item. Do not upload logs containing real contact details.
+`demo/C3_demonstration.webm` is the actual silent automated browser recording, re-encoded compactly without sequence edits or substituted replies. `DEMO_SCRIPT.md` explains the sequence, and `evidence/video_transcode_verification.json` records original/derivative hashes and timing. The code, notebook, business PDF, and video are published in [the course repository](https://github.com/HabibShouman/C3-Agentic-Systems). Publication evidence is in `evidence/repository.json`; all demonstrated contact details are fictional.
 
-For the optional Hugging Face bonus, create a Gradio Space, put this folder's contents at its repository root, add `GEMINI_API_KEY` as a Space secret, and set `PROVIDER`, `MODEL`, and `SERVER_NAME=0.0.0.0` in its environment. Verify the public demo and add the real URL. Default Space storage is not assumed durable; the local JSONL files are not a durable production database; persistence requires separately configured storage. This package is prepared for that deployment but contains no deployment claim.
+## Hugging Face bonus: actual deployment result
+
+The supplied write token authenticated successfully. Creation of `HabibShouman/c3-agentic-systems` was rejected with HTTP 402 on both CPU Basic and ZeroGPU. CPU Basic requires PRO; the ZeroGPU response also rejected this account's current eligibility. No Space was created, no live URL is claimed, and the hosting bonus is not counted as complete. `evidence/huggingface_attempts.json` preserves these outcomes without credentials.
+
+`tools/deploy_space.py` implements the complete deployment process using the official Hub API. It uploads an explicit runtime-file whitelist, sets `GEMINI_API_KEY` as a secret, configures `SERVER_NAME=0.0.0.0`, and records actual upload/runtime status. Once the account is eligible:
+
+```bash
+python -m pip install -r requirements-deploy.txt
+hf auth login
+python tools/deploy_space.py --wait-seconds 300
+```
+
+For an account eligible for the documented free ZeroGPU tier, select `--hardware zero-a10g`; that deployment uses Python 3.12. The default CPU Basic deployment uses Python 3.11. The helper supports no hourly paid hardware and purchases no subscription. A running build must still be checked with genuine browser/model/tool interactions before claiming the bonus. Default Space files are ephemeral; the local JSONL files are not a durable production database.
 
 ## Sources and assistance
 

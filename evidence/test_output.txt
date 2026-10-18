@@ -32,6 +32,6 @@ test_summary_alias_matches (test_core.CoreTests.test_summary_alias_matches) ... 
 test_native_request_and_tool_response_serialization (test_provider_contract.ProviderContractTests.test_native_request_and_tool_response_serialization) ... ok
 
 ----------------------------------------------------------------------
-Ran 32 tests in 0.274s
+Ran 32 tests in 0.240s
 
 OK
