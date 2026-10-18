@@ -1,0 +1,97 @@
+{
+  "answer": "I'm sorry, but tax treatment is not published in our workshop details, so I don't have that information for you. I have logged your question for our team to review!",
+  "status": "ok",
+  "intent": "general",
+  "trace": [
+    {
+      "event": "model",
+      "reply": {
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "id": "call_3505245",
+            "function": {
+              "arguments": "{\"question\":\"Is VAT included in your tuition?\"}",
+              "name": "record_feedback"
+            },
+            "type": "function",
+            "extra_content": {
+              "google": {
+                "thought_signature": "EmAKXgFpFH0TPlXzfCyKWiCnvUYAC9iz2HhLn5O5J9mmdP3oFeS495PX+0+oIwc6AJxY1Bv1AxWb9Hyd2T2wavr6+d8qXlk2/aikQoIBHRtMmd618HxHCfnFyVPyol2FIW0="
+              }
+            }
+          }
+        ],
+        "content": ""
+      },
+      "finish_reason": "tool_calls"
+    },
+    {
+      "event": "tool",
+      "name": "record_feedback",
+      "arguments": {
+        "question": "Is VAT included in your tuition?"
+      },
+      "observation": {
+        "ok": true,
+        "status": "saved",
+        "record_id": "d2211c6a618d487c90eb124e0077f25f"
+      }
+    },
+    {
+      "event": "model",
+      "reply": {
+        "role": "assistant",
+        "content": "I'm sorry, but tax treatment is not published in our workshop details, so I don't have that information for you. I have logged your question for our team to review!"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "event": "reflection",
+      "draft": "I'm sorry, but tax treatment is not published in our workshop details, so I don't have that information for you. I have logged your question for our team to review!",
+      "revised": "I'm sorry, but tax treatment is not published in our workshop details, so I don't have that information for you. I have logged your question for our team to review!"
+    }
+  ],
+  "writes": [
+    {
+      "tool": "record_feedback",
+      "ok": true,
+      "status": "saved",
+      "record_id": "d2211c6a618d487c90eb124e0077f25f"
+    }
+  ],
+  "model_calls": 3,
+  "tool_calls": 1,
+  "usage": [
+    {
+      "completion_tokens": 22,
+      "prompt_tokens": 1150,
+      "total_tokens": 1172,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    {
+      "completion_tokens": 38,
+      "prompt_tokens": 1234,
+      "total_tokens": 1272,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    {
+      "completion_tokens": 38,
+      "prompt_tokens": 1273,
+      "total_tokens": 1311,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    }
+  ],
+  "latency_seconds": 3.303403400001116,
+  "session_id": "demo_unknown",
+  "turn_id": "706374235e834e478e4357f134817205",
+  "configuration": {
+    "model": "gemini-3.5-flash-lite",
+    "temperature": 0.2,
+    "top_p": 0.9,
+    "max_tokens": 900
+  }
+}

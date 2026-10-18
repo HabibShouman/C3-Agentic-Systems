@@ -1,0 +1,4 @@
+# Preserve exact submitted bytes, including source and evidence SHA-256 hashes.
+* -text
+*.pdf binary
+*.webm binary

@@ -1,0 +1,54 @@
+[
+  {
+    "name": "record_customer_interest",
+    "description": "Save an explicitly requested lead after the customer supplies name, email, and notes.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string",
+          "description": "Customer-supplied email"
+        },
+        "name": {
+          "type": "string",
+          "description": "Customer-supplied name"
+        },
+        "message": {
+          "type": "string",
+          "description": "Verbatim customer note about their interest"
+        }
+      },
+      "required": [
+        "email",
+        "name",
+        "message"
+      ],
+      "additionalProperties": false
+    },
+    "outputSchema": {
+      "type": "object",
+      "description": "ok, status, record_id on success; ok=false and error on failure"
+    }
+  },
+  {
+    "name": "record_feedback",
+    "description": "Log customer feedback or the exact business question whose answer is unavailable.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "question": {
+          "type": "string",
+          "description": "Verbatim feedback or unanswered user question"
+        }
+      },
+      "required": [
+        "question"
+      ],
+      "additionalProperties": false
+    },
+    "outputSchema": {
+      "type": "object",
+      "description": "ok, status, record_id on success; ok=false and error on failure"
+    }
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "name": "CircuitBridge Learning",
+  "fictional": true,
+  "mission": "Make practical AI and electronics education approachable through small, guided workshops for adult learners.",
+  "audience": "Adult beginners, university students, and small teams who want applied technical skills.",
+  "value_proposition": "Small groups, plain-language explanations, and a tangible project in each workshop; transparent published tuition and prerequisites.",
+  "team": [
+    {"name": "Leila Farah", "role": "Fictional curriculum lead", "profile": "Designs beginner-friendly AI and Python lessons."},
+    {"name": "Karim Nassar", "role": "Fictional electronics mentor", "profile": "Develops practical sensor and edge-computing exercises."},
+    {"name": "Mira Haddad", "role": "Fictional learner-support coordinator", "profile": "Helps learners compare workshops and records follow-up requests."}
+  ],
+  "services": {
+    "ai_foundations": {"name": "AI Foundations", "delivery": "Live online", "sessions": 4, "level": "Beginner", "price_usd": 80, "prerequisites": "No coding prerequisite", "outcome": "A guided no-code AI classification exercise"},
+    "python_launchpad": {"name": "Python Launchpad", "delivery": "Live online", "sessions": 3, "level": "Beginner", "price_usd": 60, "prerequisites": "No coding prerequisite", "outcome": "A small Python data-cleaning script"},
+    "edge_ai_lab": {"name": "Edge AI Lab", "delivery": "In person in Beirut by arrangement", "sessions": 6, "level": "Intermediate", "price_usd": 180, "prerequisites": "Basic Python and basic electronics", "outcome": "A guided sensor-data inference prototype"}
+  },
+  "policies": {
+    "hours": "Monday to Friday, 09:00-17:00, Asia/Beirut time",
+    "group_discount": "Groups of 5 to 12 learners receive 10% off published tuition. Groups larger than 12 require a separate inquiry.",
+    "reschedule": "One free reschedule is available with at least 48 hours of notice.",
+    "quotes": "Estimates cover tuition only. Tax status is not published. A quote does not reserve a place or confirm availability.",
+    "availability": "Dates, remaining seats, exact venue, and instructor availability are not published. The assistant cannot confirm bookings.",
+    "unknowns": "Refund terms, accreditation, placement statistics, tax treatment, and scholarships are not published.",
+    "contact": "Use the assistant to request follow-up. No working public email address is provided in this fictional exercise.",
+    "privacy": "The demonstration stores authorized lead details and feedback in local JSONL files. Explicit requests not to log are respected by the tools and persistent trace writer. This is a teaching prototype, without a production retention or access-control service."
+  }
+}

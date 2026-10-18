@@ -1,0 +1,97 @@
+{
+  "answer": "Thank you for your feedback! I have recorded your suggestion regarding evening sessions. Let me know if there's anything else I can help you with!",
+  "status": "ok",
+  "intent": "feedback_unknown",
+  "trace": [
+    {
+      "event": "model",
+      "reply": {
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "id": "call_3592522",
+            "function": {
+              "arguments": "{\"question\":\"Please add evening sessions.\"}",
+              "name": "record_feedback"
+            },
+            "type": "function",
+            "extra_content": {
+              "google": {
+                "thought_signature": "EmAKXgFpFH0TB9wXwX5RiXLkDEZA5Oxn9P/nHVvx/Umo424Mtp4JQw1FZ2uh5acTWGxvKHPjC36tM14iL/5U+EKO28pASajmdVO8cTq6ZkwxlulGPOS2qB/uEGsQo4zcv6s="
+              }
+            }
+          }
+        ],
+        "content": ""
+      },
+      "finish_reason": "tool_calls"
+    },
+    {
+      "event": "tool",
+      "name": "record_feedback",
+      "arguments": {
+        "question": "Please add evening sessions."
+      },
+      "observation": {
+        "ok": true,
+        "status": "saved",
+        "record_id": "8e56a202491b452f9e2d11ddd9994fe1"
+      }
+    },
+    {
+      "event": "model",
+      "reply": {
+        "role": "assistant",
+        "content": "Thank you for your feedback! I have recorded your suggestion regarding evening sessions. Let me know if there's anything else I can help you with!"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "event": "reflection",
+      "draft": "Thank you for your feedback! I have recorded your suggestion regarding evening sessions. Let me know if there's anything else I can help you with!",
+      "revised": "Thank you for your feedback! I have recorded your suggestion regarding evening sessions. Let me know if there's anything else I can help you with!"
+    }
+  ],
+  "writes": [
+    {
+      "tool": "record_feedback",
+      "ok": true,
+      "status": "saved",
+      "record_id": "8e56a202491b452f9e2d11ddd9994fe1"
+    }
+  ],
+  "model_calls": 3,
+  "tool_calls": 1,
+  "usage": [
+    {
+      "completion_tokens": 20,
+      "prompt_tokens": 1406,
+      "total_tokens": 1426,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    {
+      "completion_tokens": 30,
+      "prompt_tokens": 1486,
+      "total_tokens": 1516,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    {
+      "completion_tokens": 30,
+      "prompt_tokens": 1517,
+      "total_tokens": 1547,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    }
+  ],
+  "latency_seconds": 18.18601079999644,
+  "session_id": "b4d03ccbf8ce4ef60312",
+  "turn_id": "678bd38766b249a4b146b1993fccce31",
+  "configuration": {
+    "model": "gemini-3.5-flash-lite",
+    "temperature": 0.2,
+    "top_p": 0.9,
+    "max_tokens": 900
+  }
+}

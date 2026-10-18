@@ -1,0 +1,22 @@
+{
+  "assignment": "C3",
+  "author": "Habib Shouman",
+  "python_files_syntax_checked": 9,
+  "notebook_format_valid": true,
+  "sequential_cells": 15,
+  "application_tests_passed": 32,
+  "pdf_pages": 1,
+  "required_files_present": true,
+  "real_env_excluded": true,
+  "live_api_verified": true,
+  "ui_verified": true,
+  "local_deliverables_complete": true,
+  "submission_complete": false,
+  "remaining": [
+    "Required GitHub course repository URL/publication"
+  ],
+  "optional_not_completed": [
+    "Hugging Face hosting"
+  ],
+  "instructor_submission_performed": false
+}

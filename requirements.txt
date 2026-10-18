@@ -1,0 +1,5 @@
+# Python 3.11+ recommended.
+openai==3.31.0
+gradio==6.30.0
+pypdf==6.10.0
+python-dotenv==1.2.4

@@ -1,0 +1,99 @@
+{
+  "answer": "Thanks, Dana! I have successfully saved your interest record for AI Foundations. We'll be in touch soon!",
+  "status": "ok",
+  "intent": "lead",
+  "trace": [
+    {
+      "event": "model",
+      "reply": {
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "id": "call_3128538",
+            "function": {
+              "arguments": "{\"name\":\"Dana Saleh\",\"email\":\"dana@example.com\",\"message\":\"Interested in AI Foundations.\"}",
+              "name": "record_customer_interest"
+            },
+            "type": "function",
+            "extra_content": {
+              "google": {
+                "thought_signature": "EmAKXgFpFH0TczhwGexZlmz7zosIAju2Ii5gl5/EgpBLi9YRpMTlZi/FVCkGjfzNda/k+r6V0M6uAyL9ky08trIyS2o/af7iEhrODy9yICny9FTD2SGFdUoDBWSYWgJfZTk="
+              }
+            }
+          }
+        ],
+        "content": ""
+      },
+      "finish_reason": "tool_calls"
+    },
+    {
+      "event": "tool",
+      "name": "record_customer_interest",
+      "arguments": {
+        "name": "Dana Saleh",
+        "email": "dana@example.com",
+        "message": "Interested in AI Foundations."
+      },
+      "observation": {
+        "ok": true,
+        "status": "saved",
+        "record_id": "f132692fa42241749be0034ac053d85d"
+      }
+    },
+    {
+      "event": "model",
+      "reply": {
+        "role": "assistant",
+        "content": "Thanks, Dana! I've successfully saved your interest in AI Foundations. We'll be in touch soon!"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "event": "reflection",
+      "draft": "Thanks, Dana! I've successfully saved your interest in AI Foundations. We'll be in touch soon!",
+      "revised": "Thanks, Dana! I have successfully saved your interest record for AI Foundations. We'll be in touch soon!"
+    }
+  ],
+  "writes": [
+    {
+      "tool": "record_customer_interest",
+      "ok": true,
+      "status": "saved",
+      "record_id": "f132692fa42241749be0034ac053d85d"
+    }
+  ],
+  "model_calls": 3,
+  "tool_calls": 1,
+  "usage": [
+    {
+      "completion_tokens": 39,
+      "prompt_tokens": 1277,
+      "total_tokens": 1316,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    {
+      "completion_tokens": 23,
+      "prompt_tokens": 1378,
+      "total_tokens": 1401,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    {
+      "completion_tokens": 23,
+      "prompt_tokens": 1293,
+      "total_tokens": 1316,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    }
+  ],
+  "latency_seconds": 2.7241476999988663,
+  "session_id": "demo_lead",
+  "turn_id": "ebf69c9154d84b9dac45008f061a30c4",
+  "configuration": {
+    "model": "gemini-3.5-flash-lite",
+    "temperature": 0.2,
+    "top_p": 0.9,
+    "max_tokens": 900
+  }
+}

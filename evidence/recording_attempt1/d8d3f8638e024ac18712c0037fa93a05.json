@@ -1,0 +1,99 @@
+{
+  "answer": "Thank you, Dana! Your interest in AI Foundations has been successfully recorded. \n\nPlease keep in mind that this record represents an expression of interest and not a booking, as dates and seat availability are not published. Let me know if you have any other questions!",
+  "status": "ok",
+  "intent": "lead",
+  "trace": [
+    {
+      "event": "model",
+      "reply": {
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "id": "call_4098345",
+            "function": {
+              "arguments": "{\"message\":\"Interested in AI Foundations.\",\"email\":\"dana@example.com\",\"name\":\"Dana Saleh\"}",
+              "name": "record_customer_interest"
+            },
+            "type": "function",
+            "extra_content": {
+              "google": {
+                "thought_signature": "EmAKXgFpFH0TyQDUCraPpBiYq3QN+E2s1VhVjk9RKBT5O7E+pHLjmbdlecUZlFQEgAx3rWYqTIvSHv4NESLhdThbzpTJOcUIyZWDDNOWwl1i/GJCgANeO4zrvnXH7XCr7pU="
+              }
+            }
+          }
+        ],
+        "content": ""
+      },
+      "finish_reason": "tool_calls"
+    },
+    {
+      "event": "tool",
+      "name": "record_customer_interest",
+      "arguments": {
+        "message": "Interested in AI Foundations.",
+        "email": "dana@example.com",
+        "name": "Dana Saleh"
+      },
+      "observation": {
+        "ok": true,
+        "status": "saved",
+        "record_id": "ffdb422742b94d5aa94ed181bca3ea78"
+      }
+    },
+    {
+      "event": "model",
+      "reply": {
+        "role": "assistant",
+        "content": "Thank you, Dana! Your interest in AI Foundations has been successfully recorded. \n\nPlease keep in mind that this record represents an expression of interest and not a booking, as dates and seat availability are not published. Let me know if you have any other questions!"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "event": "reflection",
+      "draft": "Thank you, Dana! Your interest in AI Foundations has been successfully recorded. \n\nPlease keep in mind that this record represents an expression of interest and not a booking, as dates and seat availability are not published. Let me know if you have any other questions!",
+      "revised": "Thank you, Dana! Your interest in AI Foundations has been successfully recorded. \n\nPlease keep in mind that this record represents an expression of interest and not a booking, as dates and seat availability are not published. Let me know if you have any other questions!"
+    }
+  ],
+  "writes": [
+    {
+      "tool": "record_customer_interest",
+      "ok": true,
+      "status": "saved",
+      "record_id": "ffdb422742b94d5aa94ed181bca3ea78"
+    }
+  ],
+  "model_calls": 3,
+  "tool_calls": 1,
+  "usage": [
+    {
+      "completion_tokens": 39,
+      "prompt_tokens": 1454,
+      "total_tokens": 1493,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    {
+      "completion_tokens": 53,
+      "prompt_tokens": 1552,
+      "total_tokens": 1605,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    {
+      "completion_tokens": 53,
+      "prompt_tokens": 1497,
+      "total_tokens": 1550,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    }
+  ],
+  "latency_seconds": 17.981198100002075,
+  "session_id": "b4d03ccbf8ce4ef60312",
+  "turn_id": "d8d3f8638e024ac18712c0037fa93a05",
+  "configuration": {
+    "model": "gemini-3.5-flash-lite",
+    "temperature": 0.2,
+    "top_p": 0.9,
+    "max_tokens": 900
+  }
+}

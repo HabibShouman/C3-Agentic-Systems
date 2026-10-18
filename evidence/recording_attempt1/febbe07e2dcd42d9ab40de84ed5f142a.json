@@ -1,0 +1,91 @@
+{
+  "answer": "I'd love to record your interest in AI Foundations! Could you please share your name and email address so I can save your note? (Please note that saving your details is an expression of interest and not a booking.)",
+  "status": "ok",
+  "intent": "lead",
+  "trace": [
+    {
+      "event": "model",
+      "reply": {
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "id": "call_4402257",
+            "function": {
+              "arguments": "{\"name\":\"Not provided\",\"message\":\"Interested in AI Foundations. Please contact me.\",\"email\":\"Not provided\"}",
+              "name": "record_customer_interest"
+            },
+            "type": "function",
+            "extra_content": {
+              "google": {
+                "thought_signature": "EmAKXgFpFH0TpXOaV10XTa1VQIK+Aqy/Vz6pp53g3Qneka8Mepa6nlLR6AO1bq4akiQAp9anaIxSFd8i/x+mUTTaPKxH1shCPnPALHXtOiqTmDBf8uPrvHHKEJ3e4YcPKz0="
+              }
+            }
+          }
+        ],
+        "content": ""
+      },
+      "finish_reason": "tool_calls"
+    },
+    {
+      "event": "tool",
+      "name": "record_customer_interest",
+      "arguments": {
+        "name": "Not provided",
+        "message": "Interested in AI Foundations. Please contact me.",
+        "email": "Not provided"
+      },
+      "observation": {
+        "ok": false,
+        "error": "invalid_email"
+      }
+    },
+    {
+      "event": "model",
+      "reply": {
+        "role": "assistant",
+        "content": "I'd love to record your interest in AI Foundations! Could you please provide your name and email address so I can save your note?"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "event": "reflection",
+      "draft": "I'd love to record your interest in AI Foundations! Could you please provide your name and email address so I can save your note?",
+      "revised": "I'd love to record your interest in AI Foundations! Could you please share your name and email address so I can save your note? (Please note that saving your details is an expression of interest and not a booking.)"
+    }
+  ],
+  "writes": [],
+  "model_calls": 3,
+  "tool_calls": 1,
+  "usage": [
+    {
+      "completion_tokens": 40,
+      "prompt_tokens": 1383,
+      "total_tokens": 1423,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    {
+      "completion_tokens": 28,
+      "prompt_tokens": 1451,
+      "total_tokens": 1479,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    {
+      "completion_tokens": 45,
+      "prompt_tokens": 1371,
+      "total_tokens": 1416,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    }
+  ],
+  "latency_seconds": 18.05577500000072,
+  "session_id": "b4d03ccbf8ce4ef60312",
+  "turn_id": "febbe07e2dcd42d9ab40de84ed5f142a",
+  "configuration": {
+    "model": "gemini-3.5-flash-lite",
+    "temperature": 0.2,
+    "top_p": 0.9,
+    "max_tokens": 900
+  }
+}

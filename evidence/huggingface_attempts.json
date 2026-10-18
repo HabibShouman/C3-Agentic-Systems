@@ -1,0 +1,32 @@
+{
+  "author": "Habib Shouman",
+  "executed_utc": "2026-10-18T14:40:53.172Z",
+  "account": "HabibShouman",
+  "authentication_verified": true,
+  "token_role": "write",
+  "token_values_recorded": false,
+  "attempted_space": "HabibShouman/c3-agentic-systems",
+  "attempts": [
+    {
+      "hardware": "cpu-basic",
+      "http_status": 402,
+      "outcome": "rejected",
+      "reason": "Gradio and Docker Spaces on CPU Basic require a PRO subscription."
+    },
+    {
+      "hardware": "zero-a10g",
+      "http_status": 402,
+      "outcome": "rejected",
+      "reason": "PRO or free-account eligibility required; server advises recent accounts to wait 30 days or request a community grant."
+    }
+  ],
+  "space_created": false,
+  "bonus_verified": false,
+  "paid_hardware_requested": false,
+  "subscription_purchase_performed": false,
+  "official_sources": [
+    "https://huggingface.co/docs/huggingface_hub/guides/manage-spaces",
+    "https://huggingface.co/docs/hub/spaces-zerogpu"
+  ],
+  "next_action": "Provide an eligible hosting account or enable PRO directly in Hugging Face, then rerun tools/deploy_space.py and verify the live app."
+}

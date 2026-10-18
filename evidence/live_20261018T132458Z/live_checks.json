@@ -1,0 +1,61 @@
+{
+  "mode": "LIVE_API",
+  "executed_utc": "2026-10-18T13:26:04.291273+00:00",
+  "provider": "gemini",
+  "configuration": {
+    "model": "gemini-3.5-flash-lite",
+    "temperature": 0.2,
+    "top_p": 0.9,
+    "max_tokens": 900
+  },
+  "min_request_interval_seconds": 6,
+  "source_sha256": {
+    "common.py": "5c0d93dbc60d3c54548e0e96e89caf4e5cc2b1ba2b99500e316210159aa884aa",
+    "agent.py": "98c523f42d3c24685783611861ab0283fa262077d938a16c04b70552002df104",
+    "live_check.py": "f4ccb2cd60fd2d44d8b59533afd29df473ba5e2bf3618b757d4ed6047105e08f"
+  },
+  "checks": [
+    {
+      "case": "general",
+      "status": "ok",
+      "answer": "Hello! I'm Mira, CircuitBridge Learning's virtual course concierge. \n\nFor beginner workshops, we offer:\n\n1. **AI Foundations** \u2013 Live online, 4 sessions, USD 80 per learner. No coding prerequisite; features a guided no-code AI classification exercise.\n2. **Python Launchpad** \u2013 Live online, 3 sessions, USD 60 per learner. No coding prerequisite; features a small Python data-cleaning script.\n\n*(Our third workshop, Edge AI Lab, requires basic Python and basic electronics.)*\n\nWould you like more details on either of these, or would you like to share your contact details for follow-up?",
+      "required_tool": null,
+      "observed_tools": [],
+      "tool_check": true,
+      "trace_file": "3de699c6d2af4d16ab9ba336b8c5f51f.json"
+    },
+    {
+      "case": "lead",
+      "status": "ok",
+      "answer": "Thank you, Dana! I've successfully saved your interest in AI Foundations. \n\nPlease note that this is an expression of interest and not a booking, and this prototype cannot send messages or promise that staff will contact you. Let me know if you have any other questions!",
+      "required_tool": "record_customer_interest",
+      "observed_tools": [
+        "record_customer_interest"
+      ],
+      "tool_check": true,
+      "trace_file": "e615731acc174df78fc01df95b1d930e.json"
+    },
+    {
+      "case": "feedback",
+      "status": "ok",
+      "answer": "Thank you! I have successfully recorded your feedback requesting evening sessions.",
+      "required_tool": "record_feedback",
+      "observed_tools": [
+        "record_feedback"
+      ],
+      "tool_check": true,
+      "trace_file": "0ce2acbddaf3464da03489f3c356d6ed.json"
+    },
+    {
+      "case": "unknown",
+      "status": "ok",
+      "answer": "I'm sorry, but our business information does not state whether tax or VAT is included in the tuition\u2014our estimates cover tuition only, and tax status is not published. I have recorded your question for our team.",
+      "required_tool": "record_feedback",
+      "observed_tools": [
+        "record_feedback"
+      ],
+      "tool_check": true,
+      "trace_file": "134752868dce4de88428440fbf267eb5.json"
+    }
+  ]
+}

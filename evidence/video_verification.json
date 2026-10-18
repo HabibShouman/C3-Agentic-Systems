@@ -1,0 +1,22 @@
+{
+  "mode": "CHROME_VIDEO_DECODE",
+  "successful": true,
+  "executed_utc": "2026-10-18T14:37:18.447531+00:00",
+  "browser": "155.0.8059.79",
+  "video_bytes": 1459497,
+  "video_filename": "C3_demonstration.webm",
+  "duration": 155.333,
+  "width": 1280,
+  "height": 900,
+  "error": null,
+  "frames_inspected": [
+    "start",
+    "middle",
+    "end"
+  ],
+  "qa_frames": "Internal visual inspection; frames are not submission artifacts.",
+  "video_sha256": "7e60de5411f4012b8054195d5e3586f8947e457af76d2e84367c68113f83010e",
+  "encoding": "Compact VP8 derivative at 3 frames/second",
+  "original_evidence": "video_verification_original.json",
+  "transcode_evidence": "video_transcode_verification.json"
+}

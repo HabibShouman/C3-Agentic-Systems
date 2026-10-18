@@ -1,0 +1,65 @@
+{
+  "mode": "CHROME_ORIGINAL_AND_DERIVATIVE_DECODE",
+  "executed_utc": "2026-10-18T14:37:18.447531+00:00",
+  "successful": true,
+  "cuts": false,
+  "speed_change": false,
+  "model_replies_replaced": false,
+  "frames_per_second": 3,
+  "internal_qa_frames_not_delivered": true,
+  "results": [
+    {
+      "original_filename": "C3_demonstration.webm",
+      "versions": [
+        {
+          "kind": "original",
+          "bytes": 9549142,
+          "sha256": "ba88731eb60410efd6be5493a3cc1791d81b057e9db1c0c5175ca9fe06d8eab7",
+          "duration": 154.96,
+          "width": 1280,
+          "height": 900,
+          "error": null
+        },
+        {
+          "kind": "compact",
+          "bytes": 1459497,
+          "sha256": "7e60de5411f4012b8054195d5e3586f8947e457af76d2e84367c68113f83010e",
+          "duration": 155.333,
+          "width": 1280,
+          "height": 900,
+          "error": null
+        }
+      ],
+      "duration_difference_seconds": 0.37299999999999045,
+      "duration_difference_below_one_second": true,
+      "timing_note": "Constant frame-rate conversion pads the final frame; no sequence edits were made."
+    },
+    {
+      "original_filename": "754a4f1864b984f92d00978ede8b1505.webm",
+      "versions": [
+        {
+          "kind": "original",
+          "bytes": 7684706,
+          "sha256": "3f9f00fad9abf46afe060cb8af0a8f88a22dd2a893efbf9f435c1c0d6da13f4c",
+          "duration": 138.28,
+          "width": 1280,
+          "height": 900,
+          "error": null
+        },
+        {
+          "kind": "compact",
+          "bytes": 1241174,
+          "sha256": "6799d83c535cb54ded8208b86d0a5647a50eddbafa3a800a85f7a07041b1f603",
+          "duration": 138.666,
+          "width": 1280,
+          "height": 900,
+          "error": null
+        }
+      ],
+      "duration_difference_seconds": 0.3859999999999957,
+      "duration_difference_below_one_second": true,
+      "timing_note": "Constant frame-rate conversion pads the final frame; no sequence edits were made."
+    }
+  ],
+  "visual_review": "Original and derivative frames at 5, 65, 110, and 145 seconds inspected internally. The compact recording remains readable; no response replacement or sequence edits."
+}

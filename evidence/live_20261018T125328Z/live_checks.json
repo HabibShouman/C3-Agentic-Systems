@@ -1,0 +1,47 @@
+{
+  "mode": "LIVE_API",
+  "checks": [
+    {
+      "case": "general",
+      "status": "ok",
+      "answer": "We offer two beginner-friendly workshops:\n\n1. **AI Foundations** \u2013 Live online, 4 sessions, USD 80 per learner. No coding prerequisite; features a guided no-code AI classification exercise.\n2. **Python Launchpad** \u2013 Live online, 3 sessions, USD 60 per learner. No coding prerequisite; features a small Python data-cleaning script.\n\nWould you like to know more about either of these, or would you like me to save your contact details for follow-up?",
+      "required_tool": null,
+      "observed_tools": [],
+      "tool_check": true,
+      "trace_file": "c4c99b68cdc4446fa8f31c4b6cc9fe6a.json"
+    },
+    {
+      "case": "lead",
+      "status": "ok",
+      "answer": "Thanks, Dana! I have successfully saved your interest record for AI Foundations. We'll be in touch soon!",
+      "required_tool": "record_customer_interest",
+      "observed_tools": [
+        "record_customer_interest"
+      ],
+      "tool_check": true,
+      "trace_file": "ebf69c9154d84b9dac45008f061a30c4.json"
+    },
+    {
+      "case": "feedback",
+      "status": "ok",
+      "answer": "Thank you! I've recorded your feedback about adding evening sessions. Let me know if you have any questions about our workshops!",
+      "required_tool": "record_feedback",
+      "observed_tools": [
+        "record_feedback"
+      ],
+      "tool_check": true,
+      "trace_file": "d5f8c38246564504b1e3bd1c837507cb.json"
+    },
+    {
+      "case": "unknown",
+      "status": "ok",
+      "answer": "I'm sorry, but tax treatment is not published in our workshop details, so I don't have that information for you. I have logged your question for our team to review!",
+      "required_tool": "record_feedback",
+      "observed_tools": [
+        "record_feedback"
+      ],
+      "tool_check": true,
+      "trace_file": "706374235e834e478e4357f134817205.json"
+    }
+  ]
+}

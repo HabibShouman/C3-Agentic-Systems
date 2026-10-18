@@ -1,0 +1,48 @@
+{
+  "answer": "CircuitBridge Learning offers two beginner-friendly workshops:\n\n1. **AI Foundations** (Live online, 4 sessions, USD 80) – No coding prerequisite; features a guided no-code AI classification exercise.\n2. **Python Launchpad** (Live online, 3 sessions, USD 60) – No coding prerequisite; features a small Python data-cleaning script.\n\nWould you like to know more about either of these workshops, or leave your contact details so our team can follow up?",
+  "status": "ok",
+  "intent": "general",
+  "trace": [
+    {
+      "event": "model",
+      "reply": {
+        "role": "assistant",
+        "content": "CircuitBridge Learning offers two beginner-friendly workshops:\n\n1. **AI Foundations** (Live online, 4 sessions, USD 80) – No coding prerequisite; features a guided no-code AI classification exercise.\n2. **Python Launchpad** (Live online, 3 sessions, USD 60) – No coding prerequisite; features a small Python data-cleaning script.\n\nWould you like to know more about either of these workshops, or leave your contact details so our team can follow up?"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "event": "reflection",
+      "draft": "CircuitBridge Learning offers two beginner-friendly workshops:\n\n1. **AI Foundations** (Live online, 4 sessions, USD 80) – No coding prerequisite; features a guided no-code AI classification exercise.\n2. **Python Launchpad** (Live online, 3 sessions, USD 60) – No coding prerequisite; features a small Python data-cleaning script.\n\nWould you like to know more about either of these workshops, or leave your contact details so our team can follow up?",
+      "revised": "CircuitBridge Learning offers two beginner-friendly workshops:\n\n1. **AI Foundations** (Live online, 4 sessions, USD 80) – No coding prerequisite; features a guided no-code AI classification exercise.\n2. **Python Launchpad** (Live online, 3 sessions, USD 60) – No coding prerequisite; features a small Python data-cleaning script.\n\nWould you like to know more about either of these workshops, or leave your contact details so our team can follow up?"
+    }
+  ],
+  "writes": [],
+  "model_calls": 2,
+  "tool_calls": 0,
+  "usage": [
+    {
+      "completion_tokens": 105,
+      "prompt_tokens": 1166,
+      "total_tokens": 1271,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    {
+      "completion_tokens": 105,
+      "prompt_tokens": 1272,
+      "total_tokens": 1377,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    }
+  ],
+  "latency_seconds": 9.24356359999365,
+  "session_id": "4a4ef6ffc0bef769b7ca",
+  "turn_id": "01d151a0ff544c8f8c3a87b64446d802",
+  "configuration": {
+    "model": "gemini-3.5-flash-lite",
+    "temperature": 0.2,
+    "top_p": 0.9,
+    "max_tokens": 900
+  }
+}

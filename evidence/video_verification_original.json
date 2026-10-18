@@ -1,0 +1,18 @@
+{
+  "mode": "CHROME_VIDEO_DECODE",
+  "successful": true,
+  "executed_utc": "2026-10-18T13:35:09.765108+00:00",
+  "browser": "155.0.8059.79",
+  "video_bytes": 9549142,
+  "video_filename": "C3_demonstration.webm",
+  "duration": 154.96,
+  "width": 1280,
+  "height": 900,
+  "error": null,
+  "frames_inspected": [
+    "start",
+    "middle",
+    "end"
+  ],
+  "qa_frames": "Internal visual inspection; frames are not submission artifacts."
+}

@@ -1,0 +1,97 @@
+{
+  "answer": "I'm sorry, but our business information does not state whether tax or VAT is included in the tuition—our estimates cover tuition only, and tax status is not published. I have recorded your question for our team.",
+  "status": "ok",
+  "intent": "general",
+  "trace": [
+    {
+      "event": "model",
+      "reply": {
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "id": "call_4224437",
+            "function": {
+              "arguments": "{\"question\":\"Is VAT included in your tuition?\"}",
+              "name": "record_feedback"
+            },
+            "type": "function",
+            "extra_content": {
+              "google": {
+                "thought_signature": "EmAKXgFpFH0TZZgZoD7vJNu3TZEwfdxj+R1toAcF5wsbtUHgUS2goxXv+RqqevkuBd0t9/Cgs/7e84ouLZMtyjpA9hzaheDZN6Or3eajhIFb7kzz1pfFesnNEE7H130200E="
+              }
+            }
+          }
+        ],
+        "content": ""
+      },
+      "finish_reason": "tool_calls"
+    },
+    {
+      "event": "tool",
+      "name": "record_feedback",
+      "arguments": {
+        "question": "Is VAT included in your tuition?"
+      },
+      "observation": {
+        "ok": true,
+        "status": "saved",
+        "record_id": "f6d41bab646847ad8a8ae4d177114adf"
+      }
+    },
+    {
+      "event": "model",
+      "reply": {
+        "role": "assistant",
+        "content": "I'm sorry, but our business information does not state whether tax or VAT is included in the tuition—our estimates cover tuition only, and tax status is not published. I have recorded your question for our team."
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "event": "reflection",
+      "draft": "I'm sorry, but our business information does not state whether tax or VAT is included in the tuition—our estimates cover tuition only, and tax status is not published. I have recorded your question for our team.",
+      "revised": "I'm sorry, but our business information does not state whether tax or VAT is included in the tuition—our estimates cover tuition only, and tax status is not published. I have recorded your question for our team."
+    }
+  ],
+  "writes": [
+    {
+      "tool": "record_feedback",
+      "ok": true,
+      "status": "saved",
+      "record_id": "f6d41bab646847ad8a8ae4d177114adf"
+    }
+  ],
+  "model_calls": 3,
+  "tool_calls": 1,
+  "usage": [
+    {
+      "completion_tokens": 22,
+      "prompt_tokens": 1166,
+      "total_tokens": 1188,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    {
+      "completion_tokens": 44,
+      "prompt_tokens": 1245,
+      "total_tokens": 1289,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    {
+      "completion_tokens": 44,
+      "prompt_tokens": 1290,
+      "total_tokens": 1334,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    }
+  ],
+  "latency_seconds": 17.855402999994112,
+  "session_id": "demo_unknown",
+  "turn_id": "134752868dce4de88428440fbf267eb5",
+  "configuration": {
+    "model": "gemini-3.5-flash-lite",
+    "temperature": 0.2,
+    "top_p": 0.9,
+    "max_tokens": 900
+  }
+}

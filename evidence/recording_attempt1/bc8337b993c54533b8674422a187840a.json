@@ -1,0 +1,48 @@
+{
+  "answer": "CircuitBridge Learning offers two beginner workshops that require no prior coding experience:\n\n1. **AI Foundations** – Live online, 4 sessions, USD 80 per learner. Features a guided no-code AI classification exercise.\n2. **Python Launchpad** – Live online, 3 sessions, USD 60 per learner. Features a small Python data-cleaning script.\n\nWould you like help choosing between them or saving your interest for follow-up?",
+  "status": "ok",
+  "intent": "general",
+  "trace": [
+    {
+      "event": "model",
+      "reply": {
+        "role": "assistant",
+        "content": "CircuitBridge Learning offers two beginner workshops that require no prior coding experience:\n\n1. **AI Foundations** – Live online, 4 sessions, USD 80 per learner. Features a guided no-code AI classification exercise.\n2. **Python Launchpad** – Live online, 3 sessions, USD 60 per learner. Features a small Python data-cleaning script.\n\nWould you like help choosing between them or saving your interest for follow-up?"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "event": "reflection",
+      "draft": "CircuitBridge Learning offers two beginner workshops that require no prior coding experience:\n\n1. **AI Foundations** – Live online, 4 sessions, USD 80 per learner. Features a guided no-code AI classification exercise.\n2. **Python Launchpad** – Live online, 3 sessions, USD 60 per learner. Features a small Python data-cleaning script.\n\nWould you like help choosing between them or saving your interest for follow-up?",
+      "revised": "CircuitBridge Learning offers two beginner workshops that require no prior coding experience:\n\n1. **AI Foundations** – Live online, 4 sessions, USD 80 per learner. Features a guided no-code AI classification exercise.\n2. **Python Launchpad** – Live online, 3 sessions, USD 60 per learner. Features a small Python data-cleaning script.\n\nWould you like help choosing between them or saving your interest for follow-up?"
+    }
+  ],
+  "writes": [],
+  "model_calls": 2,
+  "tool_calls": 0,
+  "usage": [
+    {
+      "completion_tokens": 95,
+      "prompt_tokens": 1166,
+      "total_tokens": 1261,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    {
+      "completion_tokens": 95,
+      "prompt_tokens": 1262,
+      "total_tokens": 1357,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    }
+  ],
+  "latency_seconds": 9.291629399995145,
+  "session_id": "b4d03ccbf8ce4ef60312",
+  "turn_id": "bc8337b993c54533b8674422a187840a",
+  "configuration": {
+    "model": "gemini-3.5-flash-lite",
+    "temperature": 0.2,
+    "top_p": 0.9,
+    "max_tokens": 900
+  }
+}

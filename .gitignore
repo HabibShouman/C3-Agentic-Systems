@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+logs/
+experiments/*/records/
+experiments/*/traces/
+evidence/live_*/records/
+evidence/live_*/traces/
+.gradio/
+.test_tmp/

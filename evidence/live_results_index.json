@@ -1,0 +1,12 @@
+{
+  "mode": "LIVE_API",
+  "checks_file": "evidence/live_20261018T132458Z/live_checks.json",
+  "checks_passed": 4,
+  "ui_file": "evidence/ui_verification.json",
+  "video": "demo/C3_demonstration.webm",
+  "source_sha256": {
+    "common.py": "5c0d93dbc60d3c54548e0e96e89caf4e5cc2b1ba2b99500e316210159aa884aa",
+    "agent.py": "98c523f42d3c24685783611861ab0283fa262077d938a16c04b70552002df104",
+    "live_check.py": "f4ccb2cd60fd2d44d8b59533afd29df473ba5e2bf3618b757d4ed6047105e08f"
+  }
+}

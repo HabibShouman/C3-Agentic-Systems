@@ -1,0 +1,153 @@
+{
+  "mode": "LOCAL_APPLICATION_CHECKS_WITH_SCRIPTED_BACKENDS",
+  "executed_utc": "2026-10-18T13:47:01.071196+00:00",
+  "python": "3.13.6 (tags/v3.13.6:4e66535, Aug  6 2025, 14:36:00) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "package_versions": {
+    "openai": "3.31.0",
+    "langgraph": "1.2.15",
+    "gradio": "6.30.0",
+    "pypdf": "6.10.0",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0"
+  },
+  "tests_run": 32,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true,
+  "checks": [
+    {
+      "test": "test_agent.AgentTests.test_budget_terminates_repeated_tool_requests",
+      "status": "passed"
+    },
+    {
+      "test": "test_agent.AgentTests.test_completed_or_cancelled_lead_does_not_capture_unrelated_followup",
+      "status": "passed"
+    },
+    {
+      "test": "test_agent.AgentTests.test_decline_disables_persistent_traces",
+      "status": "passed"
+    },
+    {
+      "test": "test_agent.AgentTests.test_false_save_claim_is_guarded",
+      "status": "passed"
+    },
+    {
+      "test": "test_agent.AgentTests.test_input_limits_prevent_calls",
+      "status": "passed"
+    },
+    {
+      "test": "test_agent.AgentTests.test_lead_context_survives_separate_name_email_and_notes_turns",
+      "status": "passed"
+    },
+    {
+      "test": "test_agent.AgentTests.test_lead_with_supplied_fields_is_saved",
+      "status": "passed"
+    },
+    {
+      "test": "test_agent.AgentTests.test_native_call_executes_and_observation_reaches_model",
+      "status": "passed"
+    },
+    {
+      "test": "test_agent.AgentTests.test_provider_failure_does_not_claim_success",
+      "status": "passed"
+    },
+    {
+      "test": "test_agent.AgentTests.test_reflection_saves_draft_and_revision",
+      "status": "passed"
+    },
+    {
+      "test": "test_agent.AgentTests.test_three_routes_and_lead_followup",
+      "status": "passed"
+    },
+    {
+      "test": "test_agent.AgentTests.test_unknown_question_uses_feedback_tool_from_general_route",
+      "status": "passed"
+    },
+    {
+      "test": "test_agent.AgentTests.test_unknown_tool_returns_observation_and_does_not_execute",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_both_documents_loaded_and_pdf_only_policy_present",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_dispatch_whitelist_and_argument_shapes",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_duplicate_json_and_nonfinite_numbers_rejected",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_duplicate_lead_is_not_written_twice_in_one_turn",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_email_substring_is_not_a_supplied_address",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_fabricated_email_rejected",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_feedback_is_exact_user_text",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_history_drops_whole_pairs_under_character_budget",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_history_is_bounded_and_roles_are_sanitized",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_invalid_email_rejected",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_lead_persists_customer_fields",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_logging_refusal_persists_until_explicit_new_permission",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_permission_required_for_lead",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_quote_boundary_and_exact_decimal_total",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_quote_rejects_bad_counts_and_unknown_service",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_receipt_guard_distinguishes_negative_statement",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_storage_failure_returns_error",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_summary_alias_matches",
+      "status": "passed"
+    },
+    {
+      "test": "test_provider_contract.ProviderContractTests.test_native_request_and_tool_response_serialization",
+      "status": "passed"
+    }
+  ],
+  "live_api_executed": false,
+  "gradio_launched": false,
+  "colab_executed": false,
+  "note": "These checks establish application behavior on controlled protocol inputs, not live-model reliability or persona performance."
+}

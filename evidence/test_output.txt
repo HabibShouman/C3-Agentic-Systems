@@ -1,0 +1,37 @@
+test_budget_terminates_repeated_tool_requests (test_agent.AgentTests.test_budget_terminates_repeated_tool_requests) ... ok
+test_completed_or_cancelled_lead_does_not_capture_unrelated_followup (test_agent.AgentTests.test_completed_or_cancelled_lead_does_not_capture_unrelated_followup) ... ok
+test_decline_disables_persistent_traces (test_agent.AgentTests.test_decline_disables_persistent_traces) ... ok
+test_false_save_claim_is_guarded (test_agent.AgentTests.test_false_save_claim_is_guarded) ... ok
+test_input_limits_prevent_calls (test_agent.AgentTests.test_input_limits_prevent_calls) ... ok
+test_lead_context_survives_separate_name_email_and_notes_turns (test_agent.AgentTests.test_lead_context_survives_separate_name_email_and_notes_turns) ... ok
+test_lead_with_supplied_fields_is_saved (test_agent.AgentTests.test_lead_with_supplied_fields_is_saved) ... ok
+test_native_call_executes_and_observation_reaches_model (test_agent.AgentTests.test_native_call_executes_and_observation_reaches_model) ... ok
+test_provider_failure_does_not_claim_success (test_agent.AgentTests.test_provider_failure_does_not_claim_success) ... ok
+test_reflection_saves_draft_and_revision (test_agent.AgentTests.test_reflection_saves_draft_and_revision) ... ok
+test_three_routes_and_lead_followup (test_agent.AgentTests.test_three_routes_and_lead_followup) ... ok
+test_unknown_question_uses_feedback_tool_from_general_route (test_agent.AgentTests.test_unknown_question_uses_feedback_tool_from_general_route) ... ok
+test_unknown_tool_returns_observation_and_does_not_execute (test_agent.AgentTests.test_unknown_tool_returns_observation_and_does_not_execute) ... ok
+test_both_documents_loaded_and_pdf_only_policy_present (test_core.CoreTests.test_both_documents_loaded_and_pdf_only_policy_present) ... ok
+test_dispatch_whitelist_and_argument_shapes (test_core.CoreTests.test_dispatch_whitelist_and_argument_shapes) ... ok
+test_duplicate_json_and_nonfinite_numbers_rejected (test_core.CoreTests.test_duplicate_json_and_nonfinite_numbers_rejected) ... ok
+test_duplicate_lead_is_not_written_twice_in_one_turn (test_core.CoreTests.test_duplicate_lead_is_not_written_twice_in_one_turn) ... ok
+test_email_substring_is_not_a_supplied_address (test_core.CoreTests.test_email_substring_is_not_a_supplied_address) ... ok
+test_fabricated_email_rejected (test_core.CoreTests.test_fabricated_email_rejected) ... ok
+test_feedback_is_exact_user_text (test_core.CoreTests.test_feedback_is_exact_user_text) ... ok
+test_history_drops_whole_pairs_under_character_budget (test_core.CoreTests.test_history_drops_whole_pairs_under_character_budget) ... ok
+test_history_is_bounded_and_roles_are_sanitized (test_core.CoreTests.test_history_is_bounded_and_roles_are_sanitized) ... ok
+test_invalid_email_rejected (test_core.CoreTests.test_invalid_email_rejected) ... ok
+test_lead_persists_customer_fields (test_core.CoreTests.test_lead_persists_customer_fields) ... ok
+test_logging_refusal_persists_until_explicit_new_permission (test_core.CoreTests.test_logging_refusal_persists_until_explicit_new_permission) ... ok
+test_permission_required_for_lead (test_core.CoreTests.test_permission_required_for_lead) ... ok
+test_quote_boundary_and_exact_decimal_total (test_core.CoreTests.test_quote_boundary_and_exact_decimal_total) ... ok
+test_quote_rejects_bad_counts_and_unknown_service (test_core.CoreTests.test_quote_rejects_bad_counts_and_unknown_service) ... ok
+test_receipt_guard_distinguishes_negative_statement (test_core.CoreTests.test_receipt_guard_distinguishes_negative_statement) ... ok
+test_storage_failure_returns_error (test_core.CoreTests.test_storage_failure_returns_error) ... ok
+test_summary_alias_matches (test_core.CoreTests.test_summary_alias_matches) ... ok
+test_native_request_and_tool_response_serialization (test_provider_contract.ProviderContractTests.test_native_request_and_tool_response_serialization) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.274s
+
+OK
